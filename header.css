@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 1.5rem;
+    border-block-end: 1px solid #80808039;
+}
+.header-logo{
+}
+.header-secondary{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+}
+.header-secondary{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}

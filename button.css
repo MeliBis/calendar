@@ -1,0 +1,31 @@
+.button{
+    border: 1px solid transparent;
+    padding-inline: 1rem;
+    padding-block: .5rem;
+    display: inline-block;
+    text-decoration: none;
+    color: currentColor;
+    background: transparent;
+    cursor: pointer;
+    border-radius: .25rem;
+    outline: none;
+}
+.button:active{
+    transform: scale(.9);
+}
+.button.is-primary{
+    background: firebrick;
+    color: #fff;
+}
+.button.is-secondary{
+    border: 1px solid gray;
+}
+.button.is-primary:hover,
+.button.is-primary:focus{
+    background: rgb(105, 5, 5);
+}
+.button.is-secondary:hover,
+.button.is-secondary:focus{
+    background: firebrick;
+    color: #fff;
+}

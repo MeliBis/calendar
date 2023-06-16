@@ -1,0 +1,58 @@
+.calendarDay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: sticky;
+    inset-block-start: 0;
+    background-color: #fff;
+    border-block-end: 1px solid currentColor;
+    
+}
+.calendarDay a{
+    text-decoration: none;
+    color: #a4a4a4;
+    margin: 0;
+    outline: none;
+}
+.calendarDay a:hover span:nth-of-type(2),
+.calendarDay a:focus span:nth-of-type(2){
+    background-color: #f2f3f5;
+    
+}
+.calendarDay.calendarDay.is-select a:hover span:nth-of-type(),
+.calendarDay.calendarDay.is-select a:hover span:nth-of-type(){
+    background-color:#096ef2 ;
+}
+
+.calendarDay span:nth-of-type(1){
+    font: 400 0.875rem/1.25rem roboto;
+    
+}
+.calendarDay span:nth-of-type(2){
+/*     font: 400 1.375rem/1.75rem roboto;
+ */    
+    line-height: 2.75rem;
+    inline-size:2.75rem;
+    display: inline-block;
+    border-radius: 50%;
+    
+
+}
+.calendarDay::before{
+    content: '';
+    inline-size: 1px;
+    block-size: 2rem;
+    background: currentColor;
+    position: absolute;
+    inset-block-end: 0;
+    inset-inline-start: 0;
+    
+}
+.calendarDay.is-select span:nth-of-type(1){
+    color: #1a72e9;
+}
+.calendarDay.is-select span:nth-of-type(2){
+    color: #fff;
+        background-color: #1a72e9;
+}
